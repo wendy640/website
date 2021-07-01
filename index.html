@@ -1,0 +1,127 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.83.1">
+    <title>website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+
+  </head>
+
+  <body class="  d-flex h-100 text-center text-white bg-dark">
+    <div class="logo">
+        <h3 class="float-md-start mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16 " >
+            <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+          </svg>Chinwendu Joy </h3>
+          <p class="title">Web Designer & Developer</p>
+      </div>
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+      
+    <div>
+    
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link active" aria-current="page" href="/">Home</a>
+        <a class="nav-link" href="/Services">Services</a>
+        <a class="nav-link" href="/Portfolio">Portfolio</a>
+        <a class="nav-link" href="/Contact">Contacts</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="px-3">
+
+    <div class="tab-pane  " id="home" style="padding-left: 11px; padding-right: 11px; padding-top: 71px; line-height: 33px;" >
+        <h5 class="card-title display-6 text-justify"><strong> Welcome To My Website.</strong></h5>
+        <p class="card-text text-white" style="text-align: justify;">An extremely motivated individual with a natural ability to solve financial and technical problems. An innovative thinker with impeccable attention to detail, i am friendly and approachable. i am a  graduate of Accounting and an intermediate software developer,looking to join a growing organisation thats committed to hiring a diverse workforce.I  Am an excellent team player and also possess a positive attitude towards individual goals and also an organizational goal.
+          Creative <span id="dots">.....</span><span id="more"> thinker and content expert with in-depth knowledge of development tools and languages. A believer of excellence, having the zeal to up-skill, being efficient & productive for the company & develop as well as diversify my professional skill-set. Looking forward to working as a software developer in a Multinational Corporation to get exposure to international clients, and where I will utilizing my 6months of experience at an intermediate level.</span></p>
+        <div>
+            <button onclick="myFunction()" id="myBtn"  class="btn btn-lg text-white" style="background:rgb(197, 0, 82); " >Read More   </button> 
+            <div class="dropdown">
+                <button class="btn btn-dark btn-lg text-white" type="button"><a href="http://localhost:3000/Contact">Get in Touch </a></button>
+                
+              </div>
+      
+
+     
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    &COPY;Copyright 2021 <a style="color: rgb(197, 0, 82); text-decoration: none;" href="#">Wendys</a> | Created by Wendy640.</div>
+  </footer>
+</div>
+
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+
+    
+  </body>
+
+</html>
+
+
